@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# obaketion
+web-oneweekの1週間開発チャレンジアプリ
+
+
+# 環境構築
+ruby 3.0.0
+>>>>>>> origin/main
