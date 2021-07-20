@@ -1,0 +1,107 @@
+$color: #EEEEEE;
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #2C2E43 url('../images/haka.png') bottom  no-repeat;
+    background-size: contain;
+}
+
+.text-color{
+    color: $color;
+}
+
+
+
+//pc専用
+
+@media screen and (max-width: 1600px) {
+
+    .top-margin{
+        margin-top: 20px;
+    }
+
+    .text-font{
+        font-size: 65px;
+        font-weight: bold;
+    }
+
+    .smaho-image{
+        margin-top: 20px;
+        height: 370px;
+        width: 370px;
+    }
+
+    // 画面の中央に配置するため
+    .top-subtitle{
+        font-size: 28px;
+    }
+
+    //ボタン
+    .btn--orange,
+    button.btn--orange {
+    margin-top: 25px;
+    font-size: 40px;
+    width: 250px;
+    height: 80px;
+    color:$color;
+    background-color: #962D2D;
+    }
+    .btn--orange:hover,
+    button.btn--orange:hover {
+    color:$color;
+    background: #BF1363;
+    }
+
+    button.btn--radius {
+    border-radius: 100vh;
+    }
+
+}
+
+
+//スマホ対応
+
+@media screen and (max-width: 500px) {
+
+    .top-margin{
+        margin-top: 70px;
+    }
+
+    .text-font{
+        font-size: 45px;
+        font-weight:bold;
+    }
+
+    .top-subtitle{
+        font-size: 20px;
+    }
+
+    //top画像
+    .smaho-image{
+        margin-top: 20px;
+        height: 200px;
+        width: 200px;
+    }
+
+    //ボタン
+    .btn--orange,
+    button.btn--orange {
+        margin-top: 20px;
+        font-size: 20px;
+        width: 200px;
+        height: 60px;
+        color:$color;
+        background-color: #962D2D;
+    }
+    .btn--orange:hover,
+    button.btn--orange:hover {
+        color:$color;
+        background: #BF1363;
+    }
+
+    button.btn--radius {
+        border-radius: 100vh;
+    }
+
+}
